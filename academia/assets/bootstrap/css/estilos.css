@@ -1,0 +1,526 @@
+body{
+    font-family: 'Arial';
+    font-size: 18px;	
+    background-color: #F5F5F5;
+    /* LIMITE DE REDUÇÃO DO SITE PARA ADAPTAR AO TAMANHO DE TELA DO DISPOSITVO*/
+    min-width: 300px;
+}
+
+/* ===== CSS DA COR AO SELECIONAR UM TEXTO ===== */
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+/* ===== CSS DO MENU DO TEMPLATE ===== */
+.label,.glyphicon { 
+    margin-right:5px; 
+}
+.navbar {
+    background-color: #0B0B0B !important;
+    border-color: transparent; 
+    border-radius: 0%;
+    box-shadow: 0 0 6px 3px rgba(0,0,0,.35); 
+}
+.navbar-default .navbar-nav>li>a { 
+    padding-top: 27px; 
+    padding-bottom: 25px; 
+    min-height: 69px; 
+    color: #A4A4A4;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #DDBE42;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+    color: #DDBE42;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #DDBE42;
+}
+.navbar-default .navbar-nav .open .dropdown-menu {
+    background-color: #060606 !important;
+    box-shadow: 0 4px 2px -2px rgba(0,0,0,0.4);
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+    color: #A4A4A4 !important;
+    padding: 5px 12px 5px 12px !important;
+    font-size: 18px!important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #DDBE42 !important;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #DDBE42 !important;
+    background-color: transparent !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    margin-top:18px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    border-color: transparent;
+    background-color: transparent;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: transparent;
+}
+.navbar-form { 
+    padding-top: 10px !important;
+}
+.navbar-text {
+    margin-top: 25px; 
+}
+.navbar-default .navbar-text { 
+    color: #CBAF3B;
+}
+.navbar-default .navbar-brand {
+    font-size: 21px;
+    color: #CBAF3B;
+    margin: 12px 0;
+    padding: 0px 12px;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #DDBE42;
+}
+/** LOGO DO MENU **/
+.navbar #navbar-logo{
+    width: 126px;
+}    
+
+/* ===== CSS DAS SEÇÕES DO TEMPLATE ===== */
+#pagina{
+    margin-top: 100px;
+    margin-bottom: 80px;
+    min-height: 700px;
+    background-color: transparent;
+}
+#rodape{
+    margin-top: 10px;
+    margin-bottom: 1px;
+    padding: 20px 10px;
+    color: #A4A4A4;
+    background-color: #0B0B0B;
+    box-shadow: 0 0 6px 3px rgba(0,0,0,.35);
+    text-align: center;
+}
+
+/* ===== CSS Painel com conteúdo ===== */
+.painel {
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+    background: white;
+    margin-bottom: 15px;
+}
+.painel_header {
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+
+.normal{
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.destaque{
+    font-size: 19px;
+    background: #0B0B0B; 
+    color: #A4A4A4;    
+}
+
+.titulo{
+    font-size: 16px;
+    font-weight: normal;
+    background: #f5f5f5;
+    color: black;   
+}
+
+.painel_body {
+    margin: 10px 15px 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS TELA INFORMAÇÕES DO CONSUMIDOR */
+.detalhes{
+    float: left;
+    left: 190px;
+    position: absolute;
+    line-height: 120%;
+    font-weight: bold;
+}
+.detalhes .nome{
+    font-size: 22px;
+    font-weight: bold;
+}
+.detalhes .campo{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bg_bolsista-alimentacao{
+    /*background: #CD5C5C;*/
+    background: #008B8B;
+    color: white;
+}
+.bg_bolsista-alimentacao .detalhes{
+    padding: 30px 5px;
+    font-size: 18.5px;
+}
+.color_bolsista-alimentacao{
+    border: 2px solid #008B8B; 
+    /*color: #CD5C5C;*/
+    color: #008B8B;
+}
+.bg_consumidor{
+    background: #4169E1;   
+    color: white;
+    font-size: 18px; 
+    text-shadow: 1px 1px black;
+}
+.bg_consumidor .detalhes{
+    padding: 40px 0;
+    font-size: 19px;
+}
+.color_consumidor{
+    border: 2px solid #4169E1; 
+    color: #4169E1;
+}
+.bg_passe-livre{
+    background: #2E8B57;   
+    color: white;
+}
+.bg_passe-livre .detalhes{
+    padding: 40px 0;
+    font-size: 18px;
+}
+.color_passe-livre{
+    border: 2px solid #2E8B57; 
+    color: #2E8B57;
+}
+.informacoes{   
+    margin: 0px 0px; 
+    min-height: 230px;
+    /*max-height: 230px;*/
+    overflow: hidden;
+}
+.foto3x4{
+    float: left;
+}
+.foto3x4 img{
+    max-width: 180px;
+    max-height: 230px;
+}
+.msg{
+    min-height: 230px;
+    background: #eee;
+    margin: 0px 0px;
+}
+.balao_informativo{
+    min-width: 140px;
+    min-height: 190px;
+    border-radius: 20px;   
+    background: white;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 2px 2px 10px #888888;
+}
+.balao_informativo .rotulo{
+    font-weight: bold!important;
+    font-size: 15px;    
+}
+.balao_informativo .quantidade{
+    font-weight: bold!important;
+    margin-top: 25px;
+    font-size: 50px;
+}
+.balao_informativo .mensagem{
+    font-weight: bold!important;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.balao_informativo .descricao{
+    font-weight: bold!important;
+    margin-top: 35px;
+    font-size: 20px;
+}
+.controlar{
+    padding: 10px;
+    background-color: #eee;
+    min-height: 90px;
+}
+.aviso{
+    min-width: 240px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 8px 20px;
+    border-right: 25px;
+    box-shadow: 2px 2px 10px #888888;
+    font-weight: bold;
+}
+.botao{
+    margin-top: 15px;
+    font-size: 16px!important;
+}
+.no-padding {
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+}
+/* CSS - TELA DE CONTROLE DE ACESSO*/
+#box_controle_acesso{
+    background-color: transparent;
+}
+#imagem_aguardando{
+    background-color: transparent;   
+    text-align: center;
+    padding: 10px;   
+}
+
+#imagem_aguardando img{
+    width: 80px;     
+}
+#mensagem_aproxime_cartao{
+    background-color: transparent;  
+    line-height: 130%;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom:  20px;
+    font-family: sans-serif;
+}
+#botoes_pesquisa{
+    min-height: 50px;
+    background-color: transparent;
+}
+
+.botao-amarelo{   
+    margin-bottom: 10px;
+    background-color: #d9cb2b;
+    color: #222;
+    text-transform: uppercase;    
+}  
+
+@media screen and (max-width: 1300px){
+    body{
+        font-size: 16px;
+    }
+    /* CSS TELA INFORMAÇÕES DO CONSUMIDOR - DISPOSITIVOS COM RESOLUÇÃO DE TELA INFERIOR À 1300PX */
+    .detalhes{        
+        left: 0px;
+        position: relative;
+        max-width: 450px;
+        height: 230px;
+        display: inline-block;
+    }
+    .detalhes .nome{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .detalhes .campo{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .bg_bolsista-alimentacao{
+        background: #008B8B;
+        color: white;
+    }
+    .bg_bolsista-alimentacao .detalhes{
+        padding: 10px 10px;
+        font-size: 18.5px;
+    }
+    .color_bolsista-alimentacao{
+        border: 2px solid #008B8B; 
+        color: #008B8B;
+    }
+    .bg_consumidor{
+        background: #4169E1;   
+        color: white;
+        font-size: 18px; 
+        text-shadow: 1px 1px black;
+    }
+    .bg_consumidor .detalhes{
+        padding: 20px 10px;
+        font-size: 19px;
+    }
+    .color_consumidor{
+        border: 2px solid #4169E1; 
+        color: #4169E1;
+    }
+    .bg_passe-livre{
+        background: #2E8B57;   
+        color: white;
+    }
+    .bg_passe-livre .detalhes{
+        padding: 15px 10px;
+        font-size: 18px;
+    }
+    .color_passe-livre{
+        border: 2px solid #2E8B57; 
+        color: #2E8B57;
+    }
+    .informacoes{   
+        margin: 0px 0px; 
+        min-height: 230px;
+    }
+    .foto3x4{
+        position: relative;
+        float: left;
+    }
+    .foto3x4 img{
+        max-width: 180px;
+        max-height: 230px;display: inline-block;
+    }
+    .msg{
+        min-height: 230px;
+        background: #eee;
+        margin: 0px 0px;
+    }
+    .balao_informativo{
+        min-width: 140px;
+        min-height: 190px;
+        border-radius: 20px;   
+        background: white;
+        padding: 15px;
+        margin: 20px;
+        box-shadow: 2px 2px 10px #888888;
+    }
+    .balao_informativo .rotulo{
+        font-weight: bold!important;
+        font-size: 15px;    
+    }
+    .balao_informativo .quantidade{
+        font-weight: bold!important;
+        margin-top: 25px;
+        font-size: 50px;
+    }
+    .balao_informativo .mensagem{
+        font-weight: bold!important;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+    .balao_informativo .descricao{
+        font-weight: bold!important;
+        margin-top: 35px;
+        font-size: 20px;
+    }
+    .controlar{
+        padding: 10px;
+        background-color: #eee;
+        min-height: 90px;
+    }
+    .aviso{
+        min-width: 240px;
+        margin-top: 15px;
+        text-align: center;
+        padding: 8px 20px;
+        border-right: 25px;
+        box-shadow: 2px 2px 10px #888888;
+        font-weight: bold;
+    }
+    .botao{
+        margin-top: 15px;
+        font-size: 16px!important;
+    }
+    .no-padding {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    /* CSS - TELA DE CONTROLE DE ACESSO - DISPOSITIVOS COM RESOLUÇÃO DE TELA INFERIOR À 1300PX */
+    #mensagem_aproxime_cartao{
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    #botoes_pesquisa{
+        min-height: 50px;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+
+    .botao-amarelo, .botao-fechar{   
+        margin-bottom: 15px; 
+        font-size: 10px;
+    }     
+    .botao-voltar{   
+        margin-bottom: 15px; 
+        font-size: 10px;
+    } 
+    #imagem_aguardando{
+        background-color: transparent;   
+        text-align: center;
+        margin:0 0 30px 0;  
+    }
+    #imagem_aguardando img{
+        width: 60px;     
+    }
+}
+
+
+
+
