@@ -29,9 +29,9 @@ class Cliente extends CI_Controller {
         $crud->unset_read();
         $crud->unset_clone();
         
-        $crud->required_fields('nome', 'dt_nascimento', 'telefone', 'observcoes', 'cpf', 'email', 'treinamento', 'idPlanos');
+        $crud->required_fields('nome', 'dt_nascimento', 'telefone', 'observcoes', 'cpf', 'email', 'treinamento', 'idPlanos'); 
 
-        $crud->set_relation('idObjetivo', 'objetivo', 'objetivo');
+        $crud->set_relation('idObjetivo', 'objetivo', 'objetivo'); //relação 1_n
 
         $img_consulta = base_url('imagens/carne.png');
         $crud->add_action('Contrato', $img_consulta, "Contrato/index", 'int $cont = idCliente');
